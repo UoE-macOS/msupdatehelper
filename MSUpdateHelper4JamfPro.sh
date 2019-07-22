@@ -191,7 +191,7 @@ function DetermineLoginState() {
 	if [ "$CONSOLE" == "" ]; then
     	echo "No user logged in"
 		# Running as root is broken: see comments in https://docs.microsoft.com/en-us/deployoffice/mac/update-office-for-mac-using-msupdate
-		CMD_PREFIX="sudo -u nobody "
+		CMD_PREFIX="sudo -u uoemanage "
 	else
     	echo "User $CONSOLE is logged in"
     	CMD_PREFIX="sudo -u $CONSOLE "
