@@ -13,6 +13,12 @@
 ## of such damages.
 ## Feedback: pbowden@microsoft.com 
 
+# Date: @@DATE
+# Version: @@VERSION
+# Origin: @@ORIGIN
+# Released by JSS User: @@USER
+
+
 # IT Admin constants for which applications to update [set to true or false as required]
 UPDATE_WORD="true"
 UPDATE_EXCEL="true"
